@@ -94,4 +94,4 @@ trainer.train()
 # Evaluarea modelului
 eval_results = trainer.evaluate()
 print(f"Accuracy: {eval_results['eval_accuracy']:.4f}")
-# another push
+# another push 2
