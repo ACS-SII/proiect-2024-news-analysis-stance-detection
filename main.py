@@ -9,8 +9,8 @@ from datasets import Dataset
 # Verificati daca GPU este disponibil
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-bodies = pd.read_csv("fnc-1-master/train_bodies.csv").tail(100)
-stances = pd.read_csv("fnc-1-master/train_stances.csv").tail(1000)
+bodies = pd.read_csv("fnc-1-master/train_bodies.csv")
+stances = pd.read_csv("fnc-1-master/train_stances.csv")
 
 print(stances['Stance'].value_counts())
 
