@@ -8,6 +8,7 @@ The data provided is `(headline, body, stance)` instances, where `stance` is one
 
 ### `train_bodies.csv`
 
+
 This file contains the body text of articles (the `articleBody` column) with corresponding IDs (`Body ID`)
 
 ### `train_stances.csv`
